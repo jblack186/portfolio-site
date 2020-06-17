@@ -4,7 +4,7 @@
     $message = $_POST['message'];
 
 
-    $email_from = 'https://clever-cori-f0c030.netlify.app';
+    $email_from = 'blackwelljamison@gmail.com';
 
     $email_subject = "New Form Submission";
 
