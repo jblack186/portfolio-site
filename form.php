@@ -16,12 +16,12 @@
 
     $to = "blackwellj1040@gmail.com";
 
-    $headers = "From: $email_from \r\n";
+    $headers = "From:".$email_from;
  
-    $headers = "Reply-To: $email \r\n";
+    $headers = "Reply-To:".$email;
 
     mail($to,$email_subject,$email_body, $headers);
 
-    header("location: index.html");
+    header("ocation: index.html");
 
 ?>
