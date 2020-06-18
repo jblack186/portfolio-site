@@ -57,7 +57,7 @@ body {
 
 mark {
 	background-color: transparent;
-	color: inherit;
+	color: black;
 }
 
 input::-moz-focus-inner {
@@ -147,7 +147,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: black;
 			text-decoration: none;
 		}
 
@@ -2151,7 +2151,7 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		border: solid 1px white;
-		color: inherit;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0.75em;
@@ -2203,24 +2203,24 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: inherit;
+		color: black;
 		opacity: 0.5;
 		position: relative;
 		top: 3px;
 	}
 
 	:-moz-placeholder {
-		color: inherit;
+		color: black;
 		opacity: 0.5;
 	}
 
 	::-moz-placeholder {
-		color: inherit;
+		color: black;
 		opacity: 0.5;
 	}
 
 	:-ms-input-placeholder {
-		color: inherit;
+		color: black;
 		opacity: 0.5;
 	}
 
@@ -2954,7 +2954,7 @@ input, select, textarea {
 				}
 
 				#footer .copyright li a, #footer .copyright li span {
-					color: inherit;
+					color: black;
 				}
 
 					#footer .copyright li a:hover, #footer .copyright li span:hover {
@@ -3469,7 +3469,7 @@ body {
 
 mark {
 	background-color: transparent;
-	color: inherit;
+	color: black;
 }
 
 input::-moz-focus-inner {
@@ -3621,7 +3621,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: black;
 			text-decoration: none;
 		}
 
@@ -5520,7 +5520,7 @@ input, select, textarea {
 		appearance: none;
 		border-radius: 0.325rem;
 		border: solid 2px white;
-		color: inherit;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 1rem;
@@ -6450,7 +6450,7 @@ input, select, textarea {
 		}
 
 			#wrapper .copyright a {
-				color: inherit;
+				color: black;
 			}
 
 		#wrapper section {
