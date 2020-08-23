@@ -8,7 +8,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+ h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -2024,7 +2024,6 @@ input, select, textarea {
 	}
 
 		header p {
-			position: relative;
 			top: -1em;
 			color: white;
 			text-transform: uppercase;
@@ -2848,7 +2847,6 @@ input, select, textarea {
 		#header p {
 			font-size: 1.5em;
 			line-height: 1.5em;
-			margin: 0.25em 0 0 0;
 		}
 
 /* Footer */
@@ -3420,7 +3418,7 @@ input, select, textarea {
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+ h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -6937,6 +6935,49 @@ input, select, textarea {
 
 		body.is-ie #wrapper section > footer {
 			padding: 4rem;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#header {
+			display: none;
+		}
+
+	}
+
+
+	.feature.left img {
+		object-fit: contain;
+	}
+
+	.feature.right img {
+		object-fit: contain;
+	}
+
+
+
+	.intro h3#hero-text {
+		font-size: 5rem;
+		text-align: left;
+
+	}
+		.intro p#hero-text {
+		font-size: 1.5rem;
+		text-align: left;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.intro p#hero-text {
+			color: black;
+			margin: auto 0;
+		
 		}
 
 	}
