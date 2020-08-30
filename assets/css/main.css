@@ -3360,53 +3360,6 @@ input, select, textarea {
 
 	/* content buttons */
 
-		 button.git {
-			background-color: orange;
-			color: white;
-			cursor: pointer;
-			border-radius: 200px;
-			height: 45px;
-			width: 300px;
-			font-size: 100%;
-
-		}
-
-		button.live {
-			background-color: rgba(224, 224, 224, 0.75);
-			color: white;
-			cursor: pointer;
-			border-radius: 200px;
-			height: 45px;
-			width: 300px;
-			margin-bottom: 5px;
-			font-size: 100%;
-		}
-
-
-		.content button:hover {
-			background-color: rgb(0, 0, 0, .8);
-			transition-duration: .5s;
-			
-		}
-/* 
-		.content .git button {
-			background-color: orange;
-			cursor: pointer;
-			color: white;
-		}
- */
-
-		.content .live {
-			background-color: black;
-			cursor: pointer;
-			color: white;
-		}
-
-		.content .git:hover {
-			background-color: rgb(255, 165, 0, .8);
-			transition-duration: .5s;
-		}
-
 
 		@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
@@ -6981,3 +6934,62 @@ input, select, textarea {
 		}
 
 	}
+
+	.buttns {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+
+			 .feature button.git {
+			border: white;
+			background-color: orangered;
+			color: white;
+			cursor: pointer;
+			border-radius: 5px;
+			height: 45px;
+			width: 160px;
+			font-size: 100%;
+			margin-bottom: 20px;
+
+		}
+
+		button.live {
+			background-color: rgba(224, 224, 224, 0.75);
+			margin-top: 100px;
+
+			color: white;
+			cursor: pointer;
+			border-radius: 5px;
+			height: 45px;
+			width: 190px;
+			margin-bottom: 5px;
+			font-size: 100%;
+		}
+
+
+		.content button:hover {
+			background-color: rgb(0, 0, 0, .8);
+			transition-duration: .5s;
+			
+		}
+/* 
+		.content .git button {
+			background-color: orange;
+			cursor: pointer;
+			color: white;
+		}
+ */
+
+		.content .live {
+			background-color: black;
+			cursor: pointer;
+			color: white;
+		}
+
+		.content .git:hover {
+			background-color: rgb(255, 165, 0, .8);
+			transition-duration: .5s;
+		}
+
